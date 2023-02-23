@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - print numbers 0 to 9 skippining 2 & 4
+ * print_most_numbers - print numbers 0 to 9 skippining 2 & 4
  *
  * Return (0)
  */
