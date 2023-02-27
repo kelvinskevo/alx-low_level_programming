@@ -5,20 +5,20 @@
  * @a: array name
  * @n: number of times of array to br printed
  *
- * Return: a nd n input
+ * Return: a and n input
  */
 
 void print_array(int *a, int n)
 {
 	int j;
 
-	for (j = 0; j > (n - 1); j++)
+	for (j = 0; j < n - 1; j++)
 	{
 		printf("%d, ", a[j]);
 	}
 	if (j == (n - 1))
 	{
-		printf("%d", a[n - 1]);
+		printf("%d", a[j]);
 	}
 	printf("\n");
 }
